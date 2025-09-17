@@ -26,3 +26,7 @@ curl --location 'http://localhost:8002/api/fornecedores' \
 ```
 curl --location 'http://localhost:8002/api/fornecedores/search?search=r'
 ```
+
+# Executar testes de unidade
+
+```vendor/bin/phpunit```
